@@ -13,6 +13,11 @@ RUN apt-get update --fix-missing && apt-get install -y \
     ros-$ROS_DISTRO-plotjuggler-ros \
     ros-$ROS_DISTRO-image-view \
     ros-$ROS_DISTRO-cv-bridge \
+    ros-$ROS_DISTRO-tf2 \
+    ros-$ROS_DISTRO-tf2-tools \
+    ros-$ROS_DISTRO-rqt \
+    ros-$ROS_DISTRO-rqt-common-plugins \
+    ros-$ROS_DISTRO-geometry_msgs \
     libopencv-dev \
     rsync \
     sudo 
